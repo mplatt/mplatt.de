@@ -129,7 +129,8 @@ p.links a.btn {
     hyphens: auto;
 }
 
-#publications td p {
+#publications td p,
+#writing td p {
     margin: 0;
 }
 
