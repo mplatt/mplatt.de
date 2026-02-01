@@ -293,6 +293,19 @@ p.links a.btn {
     margin-bottom: 1.2rem;
 }
 
+#link-kcl {
+    padding-left: 1.2em;
+    background: url(assets/logos/kcl.svg) 0 50% / 1em 1em no-repeat;
+}
+#link-google {
+    padding-left: 1.2em;
+    background: url(assets/logos/google-logo.svg) 0 50% / 1em 1em no-repeat;
+}
+
+#intro a {
+    color: #4a6a9e;
+}
+
 .vcard p:not(:last-child) {
     margin-bottom: 0;
 }
