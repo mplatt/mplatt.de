@@ -1,5 +1,3 @@
 User-agent: *
-Disallow: /assets/photos/
-
-User-agent: *
 Allow: /
+Content-Signal: ai-train=no, search=yes, ai-input=no
