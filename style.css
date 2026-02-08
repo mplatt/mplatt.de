@@ -280,17 +280,8 @@
 
 /*! Custom Overrides */
 
-p.occupation,
-p.links {
-    margin-bottom: .3rem;
-}
-
-p.links a.btn {
-    margin: .1rem 0;
-}
-
-#portrait {
-    margin-bottom: 1.2rem;
+p.tagline {
+    font-size: 1rem;
 }
 
 #link-kcl {
@@ -302,24 +293,14 @@ p.links a.btn {
     background: url(assets/logos/google.svg) 0 50% / 1em 1em no-repeat;
 }
 
+#intro {
+    overflow-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+}
+
 #intro a {
     color: #4a6a9e;
-}
-
-.vcard p:not(:last-child) {
-    margin-bottom: 0;
-}
-
-.vcard .n {
-    display: none;
-}
-
-.vcard .url {
-    display: none;
-}
-
-.vcard .org {
-    font-weight: bold;
 }
 
 #publications,
@@ -358,8 +339,25 @@ p.links a.btn {
     content: ".";
 }
 
-#validxhtml {
-    padding-top: 2rem;
+
+.vcard p {
+    margin-bottom: 0;
+}
+
+.vcard .n {
+    display: none;
+}
+
+.vcard .url {
+    display: none;
+}
+
+.vcard .org {
+    font-weight: bold;
+}
+
+.vcard .tel-label {
+    display: none;
 }
 
 /*! Spectre.css v0.5.8 | MIT License | github.com/picturepan2/spectre */
