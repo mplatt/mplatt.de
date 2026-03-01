@@ -324,8 +324,11 @@ p.tagline {
 }
 
 #journals {
-    display: inline;
+    display: block;
+    text-align: justify;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 #journals li {
