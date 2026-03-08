@@ -24,79 +24,166 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "Person",
-				"honorificPrefix": "Dr",
-				"givenName": "Moritz",
-				"familyName": "Platt",
-				"email": [
-					"moritz.platt@googlemail.com",
-					"moritz.platt@kcl.ac.uk",
-					"moritzp@google.com"
-				],
-				"knowsAbout": [
-					"Distributed Systems",
-					"Cloud Computing",
-					"Blockchain",
-					"Security",
-					"Privacy",
-					"Trustworthy Infrastructure"
-				],
-				"hasOccupation": [
+				"@graph": [
 					{
-						"@type": "Occupation",
-						"name": "Technology Manager",
-						"url": "https://www.google.com/"
+						"@type": "WebPage",
+						"@id": "https://mplatt.de/",
+						"url": "https://mplatt.de/",
+						"name": "Moritz Platt",
+						"mainEntity": {
+							"@id": "https://mplatt.de/#person"
+						},
+						"primaryImageOfPage": {
+							"@id": "https://mplatt.de/assets/photos/2026.jpg"
+						},
+						"speakable": {
+							"@type": "SpeakableSpecification",
+							"cssSelector": [
+								"#intro"
+							]
+						}
 					},
 					{
-						"@type": "Occupation",
-						"name": "Researcher",
-						"url": "https://www.kcl.ac.uk/"
+						"@type": "Person",
+						"@id": "https://mplatt.de/#person",
+						"honorificPrefix": "Dr",
+						"givenName": "Moritz",
+						"familyName": "Platt",
+						"address": {
+							"@type": "PostalAddress",
+							"streetAddress": "30 Aldwych",
+							"extendedAddress": "Bush House",
+							"addressLocality": "London",
+							"postalCode": "WC2B 4BG",
+							"addressCountry": "UK"
+						},
+						"jobTitle": [
+							"Technology Manager",
+							"Researcher"
+						],
+						"knowsLanguage": [
+							"de",
+							"en"
+						],
+						"image": [
+							{
+								"@type": "ImageObject",
+								"@id": "https://mplatt.de/assets/photos/2026.jpg",
+								"url": "https://mplatt.de/assets/photos/2026.jpg",
+								"caption": "Portrait of Moritz Platt (2026)"
+							},
+							{
+								"@type": "ImageObject",
+								"@id": "https://mplatt.de/assets/photos/2025.jpg",
+								"url": "https://mplatt.de/assets/photos/2025.jpg",
+								"caption": "Portrait of Moritz Platt (2025)"
+							}
+						],
+						"url": "https://mplatt.de/",
+						"email": [
+							"moritz.platt@googlemail.com",
+							"moritz.platt@kcl.ac.uk",
+							"moritzp@google.com"
+						],
+						"telephone": "+447497335107",
+						"knowsAbout": [
+							{
+								"@type": "Thing",
+								"name": "Distributed Systems",
+								"sameAs": "https://www.google.com/search?kgmid=/m/02cf96"
+							},
+							{
+								"@type": "Thing",
+								"name": "Blockchain Technology"
+							},
+							{
+								"@type": "Thing",
+								"name": "Consensus Mechanisms"
+							},
+							{
+								"@type": "Thing",
+								"name": "Sybil Attack Resistance"
+							},
+							{
+								"@type": "Thing",
+								"name": "Decentralized Finance",
+								"sameAs": "https://www.google.com/search?kgmid=/g/11jp19xcvr"
+							},
+							{
+								"@type": "Thing",
+								"name": "Sustainable Computing",
+								"sameAs": "https://www.google.com/search?kgmid=/m/05ljhq"
+							},
+							{
+								"@type": "Thing",
+								"name": "Information Security",
+								"sameAs": "https://www.google.com/search?kgmid=/m/03whm"
+							},
+							{
+								"@type": "Thing",
+								"name": "Energy Policy"
+							}
+						],
+						"colleague": [
+							{
+								"@type": "Person",
+								"name": "Peter McBurney",
+								"sameAs": "https://www.google.com/search?kgmid=/g/11b5m34d9_"
+							}
+						],
+						"affiliation": [
+							{
+								"@type": "Organization",
+								"name": "King's College London",
+								"url": "https://www.kcl.ac.uk/",
+								"sameAs": "https://www.google.com/search?kgmid=/m/014xf6"
+							}
+						],
+						"worksFor": [
+							{
+								"@type": "Organization",
+								"name": "Google",
+								"url": "https://www.google.com/",
+								"sameAs": "https://www.google.com/search?kgmid=/m/045c7b"
+							}
+						],
+						"alumniOf": [
+							{
+								"@type": "EducationalOrganization",
+								"name": "King's College London",
+								"url": "https://www.kcl.ac.uk/",
+								"sameAs": "https://www.google.com/search?kgmid=/m/014xf6"
+							},
+							{
+								"@type": "EducationalOrganization",
+								"name": "Birkbeck, University of London",
+								"url": "https://www.bbk.ac.uk/",
+								"sameAs": "https://www.google.com/search?kgmid=/m/0345gh"
+							},
+							{
+								"@type": "EducationalOrganization",
+								"name": "TU Berlin",
+								"url": "https://www.tu.berlin/en/",
+								"sameAs": "https://www.google.com/search?kgmid=/m/01c0cc"
+							}
+						],
+						"sameAs": [
+							"https://dju.social/@moritzp",
+							"https://dl.acm.org/profile/99660069659",
+							"https://www.google.com/search?kgmid=/g/11pvqkvjs3",
+							"https://ieeexplore.ieee.org/author/37088529505",
+							"https://kclpure.kcl.ac.uk/portal/en/persons/moritz-platt/",
+							"https://loop.frontiersin.org/people/2359902",
+							"https://orcid.org/0000-0003-2137-4370",
+							"https://scholar.google.co.uk/citations?user=zn3YT2gAAAAJ",
+							"https://www.wikidata.org/wiki/Q138566418",
+							"https://www.instagram.com/mritzpl/",
+							"https://www.linkedin.com/in/moritzplatt/",
+							"https://www.linkedin.com/in/moritzplatt/",
+							"https://www.researchgate.net/profile/Moritz_Platt",
+							"https://www.semanticscholar.org/author/Moritz-Platt/1388223553"
+						]
 					}
-				],
-				"alumniOf": [
-					{
-						"@type": "EducationalOrganization",
-						"name": "King's College London",
-						"url": "https://www.kcl.ac.uk/"
-					},
-					{
-						"@type": "EducationalOrganization",
-						"name": "Birkbeck, University of London",
-						"url": "https://www.bbk.ac.uk/"
-					},
-					{
-						"@type": "EducationalOrganization",
-						"name": "TU Berlin",
-						"url": "https://www.tu.berlin/en/"
-					}
-				],
-				"worksFor": [
-					{
-						"@type": "Organization",
-						"name": "Google",
-						"url": "https://www.google.com/"
-					},
-					{
-						"@type": "Organization",
-						"name": "King's College London",
-						"url": "https://www.kcl.ac.uk/"
-					}
-				],
-				"telephone": "+447497335107",
-				"url": "https://mplatt.de/",
-				"image": [
-					"https://mplatt.de/assets/photos/2026.jpg",
-					"https://mplatt.de/assets/photos/2025.jpg",
-					"https://mplatt.de/assets/photos/2021.jpg"
-				],
-				"sameAs": [
-					"https://uk.linkedin.com/in/moritzplatt/",
-					"https://scholar.google.co.uk/citations?user=zn3YT2gAAAAJ",
-					"https://orcid.org/0000-0003-2137-4370",
-					"https://kclpure.kcl.ac.uk/portal/en/persons/moritz-platt/",
-					"https://www.linkedin.com/in/moritzplatt/",
-					"https://www.instagram.com/mritzpl/",
-					"https://dju.social/@moritzp"
 				]
 			}
 		</script>
@@ -421,7 +508,7 @@
 								<td>
 									<p>
 										Kohl-Landgraf, P. &#x26; Platt, M.<br/>
-										The oracles of <abbr title="Decentralized Finance">DeFi</abbr>: How to build trustworthy data feeds for decentralized applications<br/>
+										The oracles of <abbr title="Decentralised Finance">DeFi</abbr>: How to build trustworthy data feeds for decentralized applications<br/>
 										<b>2025</b>
 									</p>
 								</td>
