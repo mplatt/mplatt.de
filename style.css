@@ -280,6 +280,26 @@
 
 /*! Custom Overrides */
 
+/* Photo Galleries */
+#portrait {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.speaking-gallery {
+    margin-bottom: 2rem;
+}
+
+.speaking-gallery img {
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+
+.press-kit-photos img {
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+
 p.tagline {
     font-size: 1rem;
     line-height: 1.6;
