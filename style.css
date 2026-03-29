@@ -319,6 +319,13 @@ p.tagline {
     overflow-wrap: break-word;
     word-break: break-word;
     hyphens: auto;
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    #intro {
+        text-align: justify;
+    }
 }
 
 #intro a {
