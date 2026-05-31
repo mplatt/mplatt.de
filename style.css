@@ -300,6 +300,11 @@
     width: 100%;
 }
 
+.img-crop-landscape-top {
+    aspect-ratio: 3/2;
+    object-position: top;
+}
+
 p.tagline {
     font-size: 1rem;
     line-height: 1.6;
