@@ -341,8 +341,10 @@ p.tagline {
 }
 
 @media (max-width: 600px) {
-    #intro {
-        text-align: justify;
+    #publications,
+    #talks {
+        display: block;
+        overflow-x: auto;
     }
 }
 
@@ -355,9 +357,14 @@ p.tagline {
     hyphens: auto;
 }
 
-#publications td p,
-#writing td p {
+.table td p {
     margin: 0;
+}
+
+#teaching-modules small {
+    display: block;
+    margin-top: .1rem;
+    line-height: 1.4;
 }
 
 #publications td p.awards {
@@ -974,6 +981,7 @@ html:lang(ko),
 
 .table {
     margin: 1em 0 2em 0;
+    line-height: 1.5;
     border-collapse: collapse;
     border-spacing: 0;
     text-align: left;
