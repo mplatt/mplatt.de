@@ -309,6 +309,10 @@
     row-gap: .8rem;
 }
 
+#speaking + .columns img {
+    image-rendering: high-quality;
+}
+
 p.tagline {
     font-size: 1rem;
     line-height: 1.6;
@@ -322,6 +326,11 @@ p.tagline {
 #link-google {
     padding-left: 1.2em;
     background: url(assets/logos/google.svg) 0 50% / 1em 1em no-repeat;
+}
+
+#link-birmingham {
+    padding-left: 1.2em;
+    background: url(assets/logos/birmingham.svg) 0 50% / 1em 1em no-repeat;
 }
 
 #intro {
