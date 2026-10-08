@@ -350,6 +350,7 @@ p.tagline {
 
 #intro a {
     color: #4a6a9e;
+    text-decoration: underline;
 }
 
 #publications,
@@ -374,6 +375,7 @@ p.tagline {
 
 #journals {
     display: block;
+    line-height: 2;
     text-align: justify;
     list-style: none;
     margin: 0;
