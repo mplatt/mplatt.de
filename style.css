@@ -384,9 +384,9 @@ p.tagline {
     display: inline;
 }
 
-#journals .programme-committee > a::after {
-    content: " programme committee";
-    margin-left: .4em;
+#journals .programme-committee > abbr {
+    display: inline-block;
+    margin: 0 .4em;
     padding: .1em .5em;
     border: 1px solid #dfdef7;
     border-radius: .3em;
