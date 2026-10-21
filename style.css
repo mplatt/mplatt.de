@@ -384,6 +384,19 @@ p.tagline {
     display: inline;
 }
 
+#journals .programme-committee > a::after {
+    content: " programme committee";
+    margin-left: .4em;
+    padding: .1em .5em;
+    border: 1px solid #dfdef7;
+    border-radius: .3em;
+    background: #f1f1fc;
+    color: #5755d9;
+    font-size: .75em;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
 #journals li:after {
     content: ", ";
 }
