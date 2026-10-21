@@ -395,6 +395,7 @@ p.tagline {
     font-size: .75em;
     font-weight: 500;
     line-height: 1.4;
+    vertical-align: .1em;
     white-space: nowrap;
 }
 
